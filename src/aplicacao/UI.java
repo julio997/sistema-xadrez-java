@@ -18,7 +18,7 @@ public class UI {
 	
 	private static void printPeca(PecaXadrez peca) {
 		if(peca == null) {
-			System.out.print("+");
+			System.out.print("-");
 		}
 		else {
 			System.out.print(peca);
